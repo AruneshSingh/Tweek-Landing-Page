@@ -1,3 +1,52 @@
-.start_bg {
-  background: url('img/StartBG.png');
+:root
+{
+  --start_bg-font-size: 28px;
+}
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.start_bg p
+{
+  font-family: "Montserrat", serif;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.start_bg a
+{
+  font-family: "Montserrat", serif;
+  font-size: var(--start_bg-font-size);
+  font-weight: 550;
+}
+
+.start_bg a:link, a:visited
+{
+  border-radius: calc(var(--start_bg-font-size)*2);
+  background-image: linear-gradient(to left,#00F2FE,#4FACFE);
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: calc(var(--start_bg-font-size)*0.5) calc(var(--start_bg-font-size)*1.5);
+
+}
+
+.start_bg a:hover
+{
+  font-size: var(--start_bg-font-size);
+  border-radius: calc(var(--start_bg-font-size)*2);
+  background-image: linear-gradient(to left,#00F2FE,#4FACFE);
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: calc(var(--start_bg-font-size)*0.5) calc(var(--start_bg-font-size)*1);
+
 }
