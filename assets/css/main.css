@@ -13,6 +13,16 @@ html,body
   background-color: #090909;
 }
 
+.viewportSize
+{
+  max-width: 85%;
+}
+
+.topPadding
+{
+  padding-top: 150px;
+}
+
 .start_bg
 {
   background-image: url(../img/StartBG.png);
