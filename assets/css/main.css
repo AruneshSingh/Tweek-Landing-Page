@@ -14,6 +14,65 @@ html,body
   scroll-behavior: smooth;
 }
 
+/* Submit Form */
+form {
+  width: 450px;
+  margin: 5% auto;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  height: 44px;
+  border: none;
+}
+
+
+#email {
+  width: 75%;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+
+#submit {
+  width: 25%;
+  height: 46px;
+  background: #568bbb;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+
+#submit:hover {
+  background: #4FACFE;
+}
+
+
+input:focus {
+  outline: none;
+  outline: 2px solid #568bbb;
+  box-shadow: 0 0 2px #568bbb;
+}
+
+/* Success Check */
+
+
+/* Main Website */
 .viewportSize
 {
   max-width: 85%;
@@ -108,6 +167,28 @@ html,body
   font-size: 34px;
 }
 
+.signUp
+{
+  border-radius: 40 px;
+  border: 3px;
+  border-color: white;
+}
+.thanksPopUp
+{
+  display: none;
+  margin-top: -50px;
+  padding-bottom: 30vh;
+}
+
+@media (max-width: 575.98px)
+{
+  .thanksPopUp
+  {
+    display: none;
+    margin-top: -10px;
+    padding-bottom: 30vh;
+  }
+}
 
 /* Scroll Button Animation */
 
