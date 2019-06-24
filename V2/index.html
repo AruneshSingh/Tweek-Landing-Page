@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tweek</title>
+  <link rel="icon" href="assets/img/logo1.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Smart jersey that monitors player performance in game
+  and provides analysis for coaches and scouts.">
+  <meta name="keywords" content="tweek, smart, jersey, inertial, motion, capture, game, monitor,
+  performance, scouting, analysis">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-database.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Navbar Section -->
+<div class="wrapper">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container container">
+      <a class="navbar-brand" href="#">tweek</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto navbar-right">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#main">Home</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#app">App</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <div id="main" class="main">
+    <div class="hero">
+      <div class="container">
+        <div class="row align-center">
+          <div class="col-md-12 col-lg-5">
+            <div class="hero-content">
+              <h5 class="d-none d-sm-block">WE DO</h5>
+              <h2>Athlete Performance Profiling and Scouting</h2>
+              <p>Subscribe to us for further updates. A lot is going under the hood.</p>
+              <div class="form">
+                <form id="subscribeForm" class="subscribe-form" accept-charset="UTF-8" autocomplete="off">
+                  <input class="mail" id="email" type="email" name="email" placeholder="Type your email address" autocomplete="off">
+                  <input class="submit-button" type="submit" id="submit" value="Subscribe">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4 offset-lg-3">
+            <img class="test" src="assets/img/placeholder-img.png" alt="Hero">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="features" class="features">
+    <div class="container-m">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <div class="features-intro">
+            <h5 class="">Features</h5>
+            <h2>We're working on these to bring the best platform for scouting.</h2>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="feature-list">
+            <div class="card-icon">
+              <div class="card-img">
+                <img src="assets/img/picture1.png" width="70%" alt="Feature">
+              </div>
+            </div>
+            <div class="card-text">
+              <h3>Mocap Sportswear</h3>
+              <!-- <p>Sportswear with electronics embedded to monitor movement of players wearing it.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="feature-list">
+            <div class="card-icon">
+              <div class="card-img">
+                <!-- <img src="assets/icons/p2.png" width="60" alt="Feature"> -->
+                <img src="assets/img/performance_profiling_new.png" width="80%" alt="">
+              </div>
+            </div>
+            <div class="card-text">
+              <h3>Performance Profiling</h3>
+              <!-- <p>Automatic performance profiling from our algorithms from the movement data.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="feature-list">
+            <div class="card-icon">
+              <div class="card-img">
+                <img src="assets/img/scouting.png" width="100%" alt="">
+                <!-- <img src="assets/icons/p3.png" width="60" alt="Feature"> -->
+              </div>
+            </div>
+            <div class="card-text">
+              <h3>Scouting Platform</h3>
+              <!-- <p>Performance data available to scouts looking for talent across the globe.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Jquery and Js Plugins -->
+
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
